@@ -193,6 +193,7 @@
     .about-wrapper {
         grid-template-columns: 475px 433px;
         column-gap: 65px;
+        margin-left: 2px;
         
     }
 
@@ -244,6 +245,7 @@
     .about-wrapper {
         grid-template-columns: 637px;
         row-gap: 122px;
+        margin-left: 2px;
     }
 
     .about-img {
@@ -255,6 +257,72 @@
     }
 
 }
+
+
+
+@media (max-width: 540px) {
+    .divider {
+        display: none;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .header-logo {
+        margin-left: 73px;
+        grid-template-columns: 200px 174px;
+        column-gap: 2%;
+        padding-top: 40px;
+    }
+
+    .about-wrapper {
+        grid-template-columns: 398px;
+        row-gap: 70px;
+        padding-top: 60px;
+        margin-left: 48px;
+        
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+
+    .about-item {
+        margin-left: 6px;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-descr {
+        grid-template-columns: 100%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 25px;
+        margin-top: 88px;
+        padding: 28px;
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .education-diplom img {
+        margin-top: 30px;
+        box-shadow: 3px 3px 20px;
+        width: 100%;
+    }
+
+    .btn-primary {
+        margin-left: 31%;
+    }
+
+    .icons {
+        margin-left: -23px;
+    }
+}
+
+
 
 @media (max-width: 425px) {
 
@@ -277,11 +345,12 @@
         grid-template-columns: 398px;
         row-gap: 70px;
         padding-top: 60px;
+        margin-left: -3px;
         
     }
 
     .about-item {
-        margin-left: 0;
+        margin-left: 6px;
     }
 
     .about-img img {
@@ -349,11 +418,12 @@
         grid-template-columns: 355px;
         row-gap: 70px;
         padding-top: 60px;
+        margin-left: -3px;
         
     }
 
     .about-item {
-        margin-left: 0;
+        margin-left: 6px;
     }
 
     .about-img img {

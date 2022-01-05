@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.7.2"
+  },
+  "name": "psyholog",
+  "version": "1.0.0",
+  "main": "gitignore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mailer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rustdj/site-psyholog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rustdj/site-psyholog/issues"
+  },
+  "homepage": "https://github.com/Rustdj/site-psyholog#readme",
+  "description": ""
+}

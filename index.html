@@ -126,7 +126,7 @@
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Отправить сообщение</button>
                 <div class="icons">
                     <a href="https://www.whatsapp.com/?lang=ru" target="blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                    <a href="https://mail.ru/" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    <a href="https://mail.ru/spirit820@mail.ru" target="blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
                     <a href="https://tlgrm.ru/" target="blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
                 </div>
@@ -145,20 +145,21 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form id="form"> 
+              <form action="https://formsubmit.co/psychology-ekaterina@internet.ru" method="POST" id="form"> 
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Укажите email или телефон</label>
-                  <input type="email" type="phone" class="form-control" id="recipient-name">
+                  <input type="hidden" name="subject" value="Тебе пришло сообщение!" />
+                  <input type="email" name="email" placeholder="Email address">
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Опишите, что вас тревожит</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                <div class="mb-3 modal-footer">
+                  <label for="message-text" class="col-form-label">Оставьте свое сообщение здесь</label>
+                  <textarea name="message" type="text" class="form-control" id="message-text" required ></textarea>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                  <button type="submit" class="btn btn-primary">Отправить сообщение</button>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-              <button type="button" class="btn btn-primary">Отправить сообщение</button>
             </div>
           </div>
         </div>

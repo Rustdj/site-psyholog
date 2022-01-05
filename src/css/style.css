@@ -18,6 +18,19 @@
     opacity: 0.6;
 
 }
+.mb-3 input {
+    padding: 5px 10px 5px 10px;
+    margin-left: 50px;
+    border: 1px solid lightslategrey;
+    border-radius: 4px;
+    outline: none;
+    transition: all .3s;
+}
+.mb-3 input:focus {
+    box-shadow: 0px 0px 1px 4px rgb(173, 192, 226);
+    transition: all .3s;
+    
+}
 
 .title h3 {
     color: rgb(66, 64, 66);
@@ -117,6 +130,12 @@
 .education-diplom img {
     margin-top: 30px;
     box-shadow: 3px 3px 20px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.education-diplom img:active {
+    transform: scale(1.7);
+    transition: all 0.6s;
 }
 
 .footer {
